@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95B5726C2ABAD5BC0031738C /* cobajamlagiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5726B2ABAD5BC0031738C /* cobajamlagiApp.swift */; };
+		95B5726E2ABAD5BC0031738C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5726D2ABAD5BC0031738C /* ContentView.swift */; };
+		95B572702ABAD5BD0031738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B5726F2ABAD5BD0031738C /* Assets.xcassets */; };
+		95B572732ABAD5BD0031738C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B572722ABAD5BD0031738C /* Preview Assets.xcassets */; };
+		95B5727D2ABAD5BD0031738C /* cobajamlagiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5727C2ABAD5BD0031738C /* cobajamlagiTests.swift */; };
+		95B572872ABAD5BD0031738C /* cobajamlagiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572862ABAD5BD0031738C /* cobajamlagiUITests.swift */; };
+		95B572892ABAD5BD0031738C /* cobajamlagiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572882ABAD5BD0031738C /* cobajamlagiUITestsLaunchTests.swift */; };
+		95B5728F2ABAD5BD0031738C /* cobajamlagi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 95B5728E2ABAD5BD0031738C /* cobajamlagi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95B572942ABAD5BD0031738C /* cobajamlagiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572932ABAD5BD0031738C /* cobajamlagiApp.swift */; };
+		95B572962ABAD5BD0031738C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572952ABAD5BD0031738C /* ContentView.swift */; };
+		95B572982ABAD5BE0031738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B572972ABAD5BE0031738C /* Assets.xcassets */; };
+		95B5729B2ABAD5BE0031738C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B5729A2ABAD5BE0031738C /* Preview Assets.xcassets */; };
+		95B572A52ABAD5BE0031738C /* cobajamlagi_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572A42ABAD5BE0031738C /* cobajamlagi_Watch_AppTests.swift */; };
+		95B572AF2ABAD5BE0031738C /* cobajamlagi_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572AE2ABAD5BE0031738C /* cobajamlagi_Watch_AppUITests.swift */; };
+		95B572B12ABAD5BE0031738C /* cobajamlagi_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572B02ABAD5BE0031738C /* cobajamlagi_Watch_AppUITestsLaunchTests.swift */; };
+		95B572C82ABAD6A70031738C /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572C72ABAD6A70031738C /* SessionDelegater.swift */; };
+		95B572CA2ABAD7610031738C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572C92ABAD7610031738C /* Counter.swift */; };
+		95B572CC2ABAD8280031738C /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572CB2ABAD8280031738C /* SessionDelegater.swift */; };
+		95B572CE2ABAD8380031738C /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B572CD2ABAD8380031738C /* Counter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B572792ABAD5BD0031738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B572602ABAD5BC0031738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B572672ABAD5BC0031738C;
+			remoteInfo = cobajamlagi;
+		};
+		95B572832ABAD5BD0031738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B572602ABAD5BC0031738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B572672ABAD5BC0031738C;
+			remoteInfo = cobajamlagi;
+		};
+		95B572902ABAD5BD0031738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B572602ABAD5BC0031738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B5728D2ABAD5BD0031738C;
+			remoteInfo = "cobajamlagi Watch App";
+		};
+		95B572A12ABAD5BE0031738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B572602ABAD5BC0031738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B5728D2ABAD5BD0031738C;
+			remoteInfo = "cobajamlagi Watch App";
+		};
+		95B572AB2ABAD5BE0031738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B572602ABAD5BC0031738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B5728D2ABAD5BD0031738C;
+			remoteInfo = "cobajamlagi Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B572B72ABAD5BE0031738C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				95B5728F2ABAD5BD0031738C /* cobajamlagi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95B572682ABAD5BC0031738C /* cobajamlagi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cobajamlagi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B5726B2ABAD5BC0031738C /* cobajamlagiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagiApp.swift; sourceTree = "<group>"; };
+		95B5726D2ABAD5BC0031738C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95B5726F2ABAD5BD0031738C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B572722ABAD5BD0031738C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95B572782ABAD5BD0031738C /* cobajamlagiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobajamlagiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B5727C2ABAD5BD0031738C /* cobajamlagiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagiTests.swift; sourceTree = "<group>"; };
+		95B572822ABAD5BD0031738C /* cobajamlagiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cobajamlagiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B572862ABAD5BD0031738C /* cobajamlagiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagiUITests.swift; sourceTree = "<group>"; };
+		95B572882ABAD5BD0031738C /* cobajamlagiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95B5728E2ABAD5BD0031738C /* cobajamlagi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cobajamlagi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B572932ABAD5BD0031738C /* cobajamlagiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagiApp.swift; sourceTree = "<group>"; };
+		95B572952ABAD5BD0031738C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95B572972ABAD5BE0031738C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B5729A2ABAD5BE0031738C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95B572A02ABAD5BE0031738C /* cobajamlagi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cobajamlagi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B572A42ABAD5BE0031738C /* cobajamlagi_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagi_Watch_AppTests.swift; sourceTree = "<group>"; };
+		95B572AA2ABAD5BE0031738C /* cobajamlagi Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cobajamlagi Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B572AE2ABAD5BE0031738C /* cobajamlagi_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagi_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		95B572B02ABAD5BE0031738C /* cobajamlagi_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobajamlagi_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95B572C72ABAD6A70031738C /* SessionDelegater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegater.swift; sourceTree = "<group>"; };
+		95B572C92ABAD7610031738C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		95B572CB2ABAD8280031738C /* SessionDelegater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegater.swift; sourceTree = "<group>"; };
+		95B572CD2ABAD8380031738C /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B572652ABAD5BC0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572752ABAD5BD0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5727F2ABAD5BD0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5728B2ABAD5BD0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5729D2ABAD5BE0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572A72ABAD5BE0031738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B5725F2ABAD5BC0031738C = {
+			isa = PBXGroup;
+			children = (
+				95B5726A2ABAD5BC0031738C /* cobajamlagi */,
+				95B5727B2ABAD5BD0031738C /* cobajamlagiTests */,
+				95B572852ABAD5BD0031738C /* cobajamlagiUITests */,
+				95B572922ABAD5BD0031738C /* cobajamlagi Watch App */,
+				95B572A32ABAD5BE0031738C /* cobajamlagi Watch AppTests */,
+				95B572AD2ABAD5BE0031738C /* cobajamlagi Watch AppUITests */,
+				95B572692ABAD5BC0031738C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95B572692ABAD5BC0031738C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B572682ABAD5BC0031738C /* cobajamlagi.app */,
+				95B572782ABAD5BD0031738C /* cobajamlagiTests.xctest */,
+				95B572822ABAD5BD0031738C /* cobajamlagiUITests.xctest */,
+				95B5728E2ABAD5BD0031738C /* cobajamlagi Watch App.app */,
+				95B572A02ABAD5BE0031738C /* cobajamlagi Watch AppTests.xctest */,
+				95B572AA2ABAD5BE0031738C /* cobajamlagi Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B5726A2ABAD5BC0031738C /* cobajamlagi */ = {
+			isa = PBXGroup;
+			children = (
+				95B5726B2ABAD5BC0031738C /* cobajamlagiApp.swift */,
+				95B5726D2ABAD5BC0031738C /* ContentView.swift */,
+				95B572C72ABAD6A70031738C /* SessionDelegater.swift */,
+				95B572C92ABAD7610031738C /* Counter.swift */,
+				95B5726F2ABAD5BD0031738C /* Assets.xcassets */,
+				95B572712ABAD5BD0031738C /* Preview Content */,
+			);
+			path = cobajamlagi;
+			sourceTree = "<group>";
+		};
+		95B572712ABAD5BD0031738C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95B572722ABAD5BD0031738C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B5727B2ABAD5BD0031738C /* cobajamlagiTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B5727C2ABAD5BD0031738C /* cobajamlagiTests.swift */,
+			);
+			path = cobajamlagiTests;
+			sourceTree = "<group>";
+		};
+		95B572852ABAD5BD0031738C /* cobajamlagiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B572862ABAD5BD0031738C /* cobajamlagiUITests.swift */,
+				95B572882ABAD5BD0031738C /* cobajamlagiUITestsLaunchTests.swift */,
+			);
+			path = cobajamlagiUITests;
+			sourceTree = "<group>";
+		};
+		95B572922ABAD5BD0031738C /* cobajamlagi Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				95B572932ABAD5BD0031738C /* cobajamlagiApp.swift */,
+				95B572952ABAD5BD0031738C /* ContentView.swift */,
+				95B572CB2ABAD8280031738C /* SessionDelegater.swift */,
+				95B572CD2ABAD8380031738C /* Counter.swift */,
+				95B572972ABAD5BE0031738C /* Assets.xcassets */,
+				95B572992ABAD5BE0031738C /* Preview Content */,
+			);
+			path = "cobajamlagi Watch App";
+			sourceTree = "<group>";
+		};
+		95B572992ABAD5BE0031738C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95B5729A2ABAD5BE0031738C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B572A32ABAD5BE0031738C /* cobajamlagi Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B572A42ABAD5BE0031738C /* cobajamlagi_Watch_AppTests.swift */,
+			);
+			path = "cobajamlagi Watch AppTests";
+			sourceTree = "<group>";
+		};
+		95B572AD2ABAD5BE0031738C /* cobajamlagi Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B572AE2ABAD5BE0031738C /* cobajamlagi_Watch_AppUITests.swift */,
+				95B572B02ABAD5BE0031738C /* cobajamlagi_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "cobajamlagi Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B572672ABAD5BC0031738C /* cobajamlagi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572B82ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi" */;
+			buildPhases = (
+				95B572642ABAD5BC0031738C /* Sources */,
+				95B572652ABAD5BC0031738C /* Frameworks */,
+				95B572662ABAD5BC0031738C /* Resources */,
+				95B572B72ABAD5BE0031738C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B572912ABAD5BD0031738C /* PBXTargetDependency */,
+			);
+			name = cobajamlagi;
+			productName = cobajamlagi;
+			productReference = 95B572682ABAD5BC0031738C /* cobajamlagi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B572772ABAD5BD0031738C /* cobajamlagiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572BB2ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagiTests" */;
+			buildPhases = (
+				95B572742ABAD5BD0031738C /* Sources */,
+				95B572752ABAD5BD0031738C /* Frameworks */,
+				95B572762ABAD5BD0031738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B5727A2ABAD5BD0031738C /* PBXTargetDependency */,
+			);
+			name = cobajamlagiTests;
+			productName = cobajamlagiTests;
+			productReference = 95B572782ABAD5BD0031738C /* cobajamlagiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B572812ABAD5BD0031738C /* cobajamlagiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572BE2ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagiUITests" */;
+			buildPhases = (
+				95B5727E2ABAD5BD0031738C /* Sources */,
+				95B5727F2ABAD5BD0031738C /* Frameworks */,
+				95B572802ABAD5BD0031738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B572842ABAD5BD0031738C /* PBXTargetDependency */,
+			);
+			name = cobajamlagiUITests;
+			productName = cobajamlagiUITests;
+			productReference = 95B572822ABAD5BD0031738C /* cobajamlagiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		95B5728D2ABAD5BD0031738C /* cobajamlagi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572B42ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch App" */;
+			buildPhases = (
+				95B5728A2ABAD5BD0031738C /* Sources */,
+				95B5728B2ABAD5BD0031738C /* Frameworks */,
+				95B5728C2ABAD5BD0031738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cobajamlagi Watch App";
+			productName = "cobajamlagi Watch App";
+			productReference = 95B5728E2ABAD5BD0031738C /* cobajamlagi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B5729F2ABAD5BE0031738C /* cobajamlagi Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572C12ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch AppTests" */;
+			buildPhases = (
+				95B5729C2ABAD5BE0031738C /* Sources */,
+				95B5729D2ABAD5BE0031738C /* Frameworks */,
+				95B5729E2ABAD5BE0031738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B572A22ABAD5BE0031738C /* PBXTargetDependency */,
+			);
+			name = "cobajamlagi Watch AppTests";
+			productName = "cobajamlagi Watch AppTests";
+			productReference = 95B572A02ABAD5BE0031738C /* cobajamlagi Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B572A92ABAD5BE0031738C /* cobajamlagi Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B572C42ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch AppUITests" */;
+			buildPhases = (
+				95B572A62ABAD5BE0031738C /* Sources */,
+				95B572A72ABAD5BE0031738C /* Frameworks */,
+				95B572A82ABAD5BE0031738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B572AC2ABAD5BE0031738C /* PBXTargetDependency */,
+			);
+			name = "cobajamlagi Watch AppUITests";
+			productName = "cobajamlagi Watch AppUITests";
+			productReference = 95B572AA2ABAD5BE0031738C /* cobajamlagi Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B572602ABAD5BC0031738C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					95B572672ABAD5BC0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					95B572772ABAD5BD0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 95B572672ABAD5BC0031738C;
+					};
+					95B572812ABAD5BD0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 95B572672ABAD5BC0031738C;
+					};
+					95B5728D2ABAD5BD0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					95B5729F2ABAD5BE0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 95B5728D2ABAD5BD0031738C;
+					};
+					95B572A92ABAD5BE0031738C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 95B5728D2ABAD5BD0031738C;
+					};
+				};
+			};
+			buildConfigurationList = 95B572632ABAD5BC0031738C /* Build configuration list for PBXProject "cobajamlagi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B5725F2ABAD5BC0031738C;
+			productRefGroup = 95B572692ABAD5BC0031738C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B572672ABAD5BC0031738C /* cobajamlagi */,
+				95B572772ABAD5BD0031738C /* cobajamlagiTests */,
+				95B572812ABAD5BD0031738C /* cobajamlagiUITests */,
+				95B5728D2ABAD5BD0031738C /* cobajamlagi Watch App */,
+				95B5729F2ABAD5BE0031738C /* cobajamlagi Watch AppTests */,
+				95B572A92ABAD5BE0031738C /* cobajamlagi Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B572662ABAD5BC0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572732ABAD5BD0031738C /* Preview Assets.xcassets in Resources */,
+				95B572702ABAD5BD0031738C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572762ABAD5BD0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572802ABAD5BD0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5728C2ABAD5BD0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B5729B2ABAD5BE0031738C /* Preview Assets.xcassets in Resources */,
+				95B572982ABAD5BE0031738C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5729E2ABAD5BE0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572A82ABAD5BE0031738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B572642ABAD5BC0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572CA2ABAD7610031738C /* Counter.swift in Sources */,
+				95B5726E2ABAD5BC0031738C /* ContentView.swift in Sources */,
+				95B5726C2ABAD5BC0031738C /* cobajamlagiApp.swift in Sources */,
+				95B572C82ABAD6A70031738C /* SessionDelegater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572742ABAD5BD0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B5727D2ABAD5BD0031738C /* cobajamlagiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5727E2ABAD5BD0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572872ABAD5BD0031738C /* cobajamlagiUITests.swift in Sources */,
+				95B572892ABAD5BD0031738C /* cobajamlagiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5728A2ABAD5BD0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572CE2ABAD8380031738C /* Counter.swift in Sources */,
+				95B572CC2ABAD8280031738C /* SessionDelegater.swift in Sources */,
+				95B572962ABAD5BD0031738C /* ContentView.swift in Sources */,
+				95B572942ABAD5BD0031738C /* cobajamlagiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B5729C2ABAD5BE0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572A52ABAD5BE0031738C /* cobajamlagi_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B572A62ABAD5BE0031738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B572AF2ABAD5BE0031738C /* cobajamlagi_Watch_AppUITests.swift in Sources */,
+				95B572B12ABAD5BE0031738C /* cobajamlagi_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B5727A2ABAD5BD0031738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B572672ABAD5BC0031738C /* cobajamlagi */;
+			targetProxy = 95B572792ABAD5BD0031738C /* PBXContainerItemProxy */;
+		};
+		95B572842ABAD5BD0031738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B572672ABAD5BC0031738C /* cobajamlagi */;
+			targetProxy = 95B572832ABAD5BD0031738C /* PBXContainerItemProxy */;
+		};
+		95B572912ABAD5BD0031738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B5728D2ABAD5BD0031738C /* cobajamlagi Watch App */;
+			targetProxy = 95B572902ABAD5BD0031738C /* PBXContainerItemProxy */;
+		};
+		95B572A22ABAD5BE0031738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B5728D2ABAD5BD0031738C /* cobajamlagi Watch App */;
+			targetProxy = 95B572A12ABAD5BE0031738C /* PBXContainerItemProxy */;
+		};
+		95B572AC2ABAD5BE0031738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B5728D2ABAD5BD0031738C /* cobajamlagi Watch App */;
+			targetProxy = 95B572AB2ABAD5BE0031738C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95B572B22ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95B572B32ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		95B572B52ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cobajamlagi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cobajamlagi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.you.cobajamlagi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		95B572B62ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cobajamlagi Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cobajamlagi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.you.cobajamlagi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		95B572B92ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cobajamlagi/Preview Content\"";
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cobajamlagi;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B572BA2ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cobajamlagi/Preview Content\"";
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = cobajamlagi;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B572BC2ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cobajamlagi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cobajamlagi";
+			};
+			name = Debug;
+		};
+		95B572BD2ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cobajamlagi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cobajamlagi";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B572BF2ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cobajamlagi;
+			};
+			name = Debug;
+		};
+		95B572C02ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.you.cobajamlagiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cobajamlagi;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B572C22ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.you.cobajamlagi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cobajamlagi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cobajamlagi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		95B572C32ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.you.cobajamlagi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cobajamlagi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cobajamlagi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		95B572C52ABAD5BE0031738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.you.cobajamlagi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "cobajamlagi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		95B572C62ABAD5BE0031738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9L5Q66W36;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.you.cobajamlagi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "cobajamlagi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B572632ABAD5BC0031738C /* Build configuration list for PBXProject "cobajamlagi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572B22ABAD5BE0031738C /* Debug */,
+				95B572B32ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572B42ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572B52ABAD5BE0031738C /* Debug */,
+				95B572B62ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572B82ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572B92ABAD5BE0031738C /* Debug */,
+				95B572BA2ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572BB2ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572BC2ABAD5BE0031738C /* Debug */,
+				95B572BD2ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572BE2ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572BF2ABAD5BE0031738C /* Debug */,
+				95B572C02ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572C12ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572C22ABAD5BE0031738C /* Debug */,
+				95B572C32ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B572C42ABAD5BE0031738C /* Build configuration list for PBXNativeTarget "cobajamlagi Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B572C52ABAD5BE0031738C /* Debug */,
+				95B572C62ABAD5BE0031738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B572602ABAD5BC0031738C /* Project object */;
+}
